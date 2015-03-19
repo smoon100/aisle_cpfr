@@ -1,0 +1,148 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ZSDKDeveloperDemos */ = {
+		activeExec = 0;
+		executables = (
+			4B4C61DB12089CBD00E1C6E4 /* ZSDKDeveloperDemos */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 4B4C61DB12089CBD00E1C6E4 /* ZSDKDeveloperDemos */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ZSDKDeveloperDemos */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ZSDKDeveloperDemos */,
+		);
+		codeSenseManager = 4B4C61E612089CDB00E1C6E4 /* Code sense */;
+		executables = (
+			4B4C61DB12089CBD00E1C6E4 /* ZSDKDeveloperDemos */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					641,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					305,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302555019;
+			PBXWorkspaceStateSaveDate = 302555019;
+		};
+		perUserProjectItems = {
+			4B2364C91208A143009766B4 /* PBXTextBookmark */ = 4B2364C91208A143009766B4 /* PBXTextBookmark */;
+			4B4C62DD12089F2C00E1C6E4 /* PBXTextBookmark */ = 4B4C62DD12089F2C00E1C6E4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4B4C61E512089CDB00E1C6E4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4B2364C91208A143009766B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */;
+		name = "SendFileDemoViewController.m: 16";
+		rLen = 0;
+		rLoc = 702;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4B4C61DB12089CBD00E1C6E4 /* ZSDKDeveloperDemos */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZSDKDeveloperDemos;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4B4C61E512089CDB00E1C6E4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4B4C61E612089CDB00E1C6E4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {819, 1950}}";
+			sepNavSelRange = "{702, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	4B4C62DD12089F2C00E1C6E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */;
+		name = "SendFileDemoViewController.m: 16";
+		rLen = 0;
+		rLoc = 702;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+}

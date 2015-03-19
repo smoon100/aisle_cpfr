@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<body>
+<h4>Steps to add ZSDK_API.a to your development environment project</h4>
+<ol>
+<li>In your development environment, navigate to your app's target</li>
+<li>Select the "Build Settings" tab</li>
+<li>Set the "Other Linker Flags" setting to "-lZSDK_API"</li>
+<li>Select the "Library Search Paths" setting</li>
+<li>Under your desired configuration, click the '+' button</li>
+<li>Change "Any Architecture | Any SDK" to "Any iOS Simulator SDK"</li>
+<li>Set the value of that setting to the location of the lib/Simulator directory of your installation of the ZebraLink Multiplatform SDK</li>
+<li>Under your desired configuration, click the '+' button again</li>
+<li>Change "Any Architecture | Any SDK" to "Any iOS SDK"</li>
+<li>Set the value of that setting to the location of the lib/Device directory of your installation of the ZebraLink Multiplatform SDK</li>
+</ol>
+
+<h4>Steps to include the ZebraLink Multiplatform SDK headers to your development environment project</h4>
+<ol>
+<li>In your development environment, navigate to your app's target</li>
+<li>Select the "Build Settings" tab</li>
+<li>Set the "Header Search Path" setting to the location of the "lib/include" directory of your installation of the ZebraLink Multiplatform SDK</li>
+</ol>
+
+</body>
+</html>

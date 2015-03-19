@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2014-01-20 17:11:41" version="1.1" last_modified="2014-01-20 17:11:43">
+	<products>
+		<product name="ZebraLink Multiplatform SDK" id="236555d0-1ef5-11b2-8380-a36b0a08282d" version="1.0.30.0" copyright="2009" info_url="www.zebra.com" support_url="www.zebra.com/support" location="/Users/hyunmokim/Documents/zebralink_sdk" last_modified="2014-01-20 17:11:41">
+		<![CDATA[]]>
+			<vendor name="Zebra Technologies" id="236555cf-1ef5-11b2-8380-a36b0a08282d" home_page="" email=""/>
+			<feature name="Application" last_modified="2014-01-20 17:11:41">
+			<![CDATA[This installs the application feature.]]>
+				<component ref_id="2365561d-1ef5-11b2-83a2-a36b0a08282d" version="1.0.0.0" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/Uninstall ZebraLink Multiplatform SDK.app"/>
+				<component ref_id="2365561e-1ef5-11b2-839f-a36b0a08282d" version="1.0.0.0" location="/Users/hyunmokim/Documents/zebralink_sdk/.zuninstall"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="2365561e-1ef5-11b2-839f-a36b0a08282d" version="1.0.0.0" name="Common" location="/Users/hyunmokim/Documents/zebralink_sdk/.zuninstall" vendor="Zebra Technologies">
+			<resource keyfile="false" name="Uninstall_ZebraLink Multiplatform SDK" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name=".zuninstall" location="/Users/hyunmokim/Documents/zebralink_sdk/.zuninstall" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Zebra SDK EULA.pdf" location="/Users/hyunmokim/Documents/zebralink_sdk/Zebra SDK EULA.pdf" type="file" uninstall="true"/>
+			<resource keyfile="false" name="sdk_welcome.html" location="/Users/hyunmokim/Documents/zebralink_sdk/sdk_welcome.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="readme_iOS.html" location="/Users/hyunmokim/Documents/zebralink_sdk/readme_iOS.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="iOS" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="v1.0.214" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="demos" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="src" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="xcode_project" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="developer_demos" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Classes" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ConnectionSetupController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectionSetupController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ConnectionSetupController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectionSetupController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ConnectivityDemoController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectivityDemoController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ConnectivityDemoController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectivityDemoController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DirectedBroadcastViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DirectedBroadcastViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DirectedBroadcastViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DirectedBroadcastViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveredPrintersViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveredPrintersViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveredPrintersViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveredPrintersViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveryControllerBase.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryControllerBase.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveryControllerBase.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryControllerBase.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveryViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveryViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DrawingArea.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DrawingArea.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DrawingArea.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DrawingArea.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ImagePrintDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ImagePrintDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ImagePrintDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ImagePrintDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MagCardDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MagCardDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MagCardDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MagCardDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MulticastViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MulticastViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MulticastViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MulticastViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PrintPreviewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/PrintPreviewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PrintPreviewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/PrintPreviewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="RootViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/RootViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="RootViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/RootViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SendFileDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SendFileDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SendFileDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SendFileDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SignatureCaptureDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SignatureCaptureDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SignatureCaptureDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SignatureCaptureDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SmartCardDemoViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SmartCardDemoViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SmartCardDemoViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SmartCardDemoViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StatusViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StatusViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StatusViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StatusViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredFormatViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredFormatViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredFormatViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredFormatViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredPrinterFormatsViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredPrinterFormatsViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredPrinterFormatsViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredPrinterFormatsViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SubnetSearchViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SubnetSearchViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SubnetSearchViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SubnetSearchViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariableFieldEditViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableFieldEditViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariableFieldEditViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableFieldEditViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariableModifier.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableModifier.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariablesViewController.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariablesViewController.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariablesViewController.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariablesViewController.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZSDKDeveloperDemosAppDelegate.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ZSDKDeveloperDemosAppDelegate.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZSDKDeveloperDemosAppDelegate.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ZSDKDeveloperDemosAppDelegate.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Formats" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Formats" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="test_cpcl.lbl" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Formats/test_cpcl.lbl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="test_zpl.zpl" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Formats/test_zpl.zpl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Images" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="formatFromPhone.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/formatFromPhone.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="formatFromPrinter.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/formatFromPrinter.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ql.jpg" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/ql.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="rw420.jpg" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/rw420.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="main.m" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/main.m" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PDFs" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/PDFs" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="PDFDemo2.pdf" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/PDFs/PDFDemo2.pdf" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Xibs" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ConnectionSetupView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ConnectionSetupView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ConnectivityView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ConnectivityView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DirectedBroadcastView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DirectedBroadcastView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveredPrintersView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DiscoveredPrintersView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveryView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DiscoveryView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ImagePrintView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ImagePrintView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsDemoView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ListFormatsDemoView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ListFormatsView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ListFormatsView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MagCardView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MagCardView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MainWindow.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MainWindow.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MulticastView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MulticastView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PrintPreview.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/PrintPreview.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="RootViewController.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/RootViewController.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SendFileView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SendFileView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SignatureView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SignatureView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SmartCardView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SmartCardView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StatusView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StatusView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredFormatView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StoredFormatView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StoredPrinterFormatsView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StoredPrinterFormatsView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SubnetSearchView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SubnetSearchView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariableFieldEditView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/VariableFieldEditView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="VariablesView.xib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/VariablesView.xib" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZSDKDeveloperDemos-Info.plist" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos-Info.plist" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZSDKDeveloperDemos.xcodeproj" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="project.pbxproj" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/project.pbxproj" type="file" uninstall="true"/>
+			<resource keyfile="false" name="swgroup.mode1v3" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/swgroup.mode1v3" type="file" uninstall="true"/>
+			<resource keyfile="false" name="swgroup.pbxuser" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/swgroup.pbxuser" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZSDKDeveloperDemos_Prefix.pch" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos_Prefix.pch" type="file" uninstall="true"/>
+			<resource keyfile="false" name="doc" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="annotated.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/annotated.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="bc_s.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/bc_s.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/classes.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_discovered_printer-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_discovered_printer-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_discovered_printer_network-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_discovered_printer_network-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_field_description_data-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_field_description_data-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_network_discoverer-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_network_discoverer-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_printer_status-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_printer_status-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_printer_status_messages-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_printer_status_messages-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_s_g_d-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_s_g_d-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_tcp_printer_connection-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_tcp_printer_connection-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_zebra_error_code_interface-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zebra_error_code_interface-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_zebra_printer_factory-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zebra_printer_factory-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="class_zpl_print_mode_interface-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zpl_print_mode_interface-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="closed.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/closed.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="doxygen.css" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/doxygen.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="doxygen.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/doxygen.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2blank.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2blank.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2doc.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2doc.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2folderclosed.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2folderclosed.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2folderopen.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2folderopen.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2lastnode.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2lastnode.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2link.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2link.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2mlastnode.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2mlastnode.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2mnode.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2mnode.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2node.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2node.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2plastnode.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2plastnode.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2pnode.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2pnode.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ftv2vertline.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2vertline.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_enum.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_enum.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_eval.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_eval.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_func.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_func.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_prop.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_prop.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="hierarchy.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/hierarchy.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="index.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/index.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_discovered_printer.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_discovered_printer.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_discovered_printer_network.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_discovered_printer_network.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_field_description_data.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_field_description_data.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_network_discoverer.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_network_discoverer.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_printer_status.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_printer_status.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_printer_status_messages.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_printer_status_messages.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_s_g_d.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_s_g_d.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_tcp_printer_connection.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_tcp_printer_connection.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_zebra_error_code_interface.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zebra_error_code_interface.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_zebra_printer_factory.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zebra_printer_factory.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="interface_zpl_print_mode_interface.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zpl_print_mode_interface.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="libToProj.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/libToProj.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="main.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/main.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="nav_f.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/nav_f.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="nav_h.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/nav_h.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="open.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/open.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_file_util-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_file_util-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_file_util-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_file_util-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_format_util-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_format_util-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_format_util-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_format_util-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_graphics_util-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_graphics_util-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_graphics_util-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_graphics_util-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_mag_card_reader-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_mag_card_reader-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_mag_card_reader-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_mag_card_reader-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_smart_card_reader-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_smart_card_reader-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_smart_card_reader-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_smart_card_reader-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_tools_util-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_tools_util-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_tools_util-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_tools_util-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_zebra_printer-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_zebra_printer-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_zebra_printer_connection-p-members.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer_connection-p-members.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="protocol_zebra_printer_connection-p.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer_connection-p.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="all_61.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_61.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_63.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_63.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_64.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_64.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_66.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_66.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_67.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_67.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_68.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_68.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_69.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_69.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_6c.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6c.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_6d.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6d.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_6e.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6e.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_6f.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6f.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_72.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_72.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_73.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_73.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_74.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_74.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_77.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_77.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="all_7a.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_7a.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_64.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_64.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_66.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_66.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_67.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_67.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_6d.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_6d.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_6e.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_6e.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_73.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_73.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_74.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_74.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="classes_7a.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_7a.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="close.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/close.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="enums_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enums_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="enums_7a.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enums_7a.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="enumvalues_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enumvalues_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="enumvalues_7a.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enumvalues_7a.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_63.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_63.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_64.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_64.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_67.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_67.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_68.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_68.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_69.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_69.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_6c.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6c.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_6d.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6d.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_6f.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6f.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_72.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_72.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_73.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_73.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_74.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_74.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="functions_77.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_77.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="mag_sel.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/mag_sel.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="nomatches.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/nomatches.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_61.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_61.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_64.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_64.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_66.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_66.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_69.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_69.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_6c.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_6c.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_6e.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_6e.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="properties_70.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_70.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search.css" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search.js" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search_l.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_l.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search_m.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_m.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search_r.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_r.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tabs.css" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tabs.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tab_a.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_a.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tab_b.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_b.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tab_h.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_h.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tab_s.png" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_s.png" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tree.html" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tree.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="lib" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Device" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Device" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="libZSDK_API.a" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Device/libZSDK_API.a" type="file" uninstall="true"/>
+			<resource keyfile="false" name="include" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="DiscoveredPrinter.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/DiscoveredPrinter.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DiscoveredPrinterNetwork.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/DiscoveredPrinterNetwork.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="FieldDescriptionData.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FieldDescriptionData.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="FileUtil.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FileUtil.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="FormatUtil.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FormatUtil.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="GraphicsUtil.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/GraphicsUtil.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MagCardReader.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/MagCardReader.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="NetworkDiscoverer.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/NetworkDiscoverer.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PrinterStatus.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/PrinterStatus.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PrinterStatusMessages.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/PrinterStatusMessages.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SGD.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/SGD.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SmartCardReader.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/SmartCardReader.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="TcpPrinterConnection.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/TcpPrinterConnection.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ToolsUtil.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ToolsUtil.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZebraErrorCode.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraErrorCode.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZebraPrinter.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinter.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZebraPrinterConnection.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinterConnection.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZebraPrinterFactory.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinterFactory.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZplPrintMode.h" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZplPrintMode.h" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Simulator" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Simulator" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="libZSDK_API.a" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Simulator/libZSDK_API.a" type="file" uninstall="true"/>
+			<resource keyfile="false" name="zebra_utilities" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/zebra_utilities" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="release" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/zebra_utilities/release" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ZebraLink™ Multiplatform SDK and Smartphone Utility.webloc" location="/Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/zebra_utilities/release/ZebraLink™ Multiplatform SDK and Smartphone Utility.webloc" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ZebraLink Multiplatform SDK" location="/Users/hyunmokim/Desktop/ZebraLink Multiplatform SDK" type="shortcut" uninstall="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall ZebraLink Multiplatform SDK" location="/Users/hyunmokim/Desktop/Uninstall ZebraLink Multiplatform SDK" type="shortcut" uninstall="true">
+			<![CDATA[]]>
+			</resource>
+		</component>
+		<component id="2365561d-1ef5-11b2-83a2-a36b0a08282d" version="1.0.0.0" name="InstallAnywhere Uninstall Component" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/Uninstall ZebraLink Multiplatform SDK.app" vendor="Zebra Technologies">
+			<resource keyfile="false" name="ZebraLink_Multiplatform_SDK_InstallLog.log" location="/Users/hyunmokim/Documents/zebralink_sdk/ZebraLink_Multiplatform_SDK_InstallLog.log" type="file" uninstall="true"/>
+			<resource keyfile="false" name="zebralink_sdk" location="/Users/hyunmokim/Documents/zebralink_sdk" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall_ZebraLink Multiplatform SDK" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall ZebraLink Multiplatform SDK.app" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/Uninstall ZebraLink Multiplatform SDK.app" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="en.lproj" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/Uninstall ZebraLink Multiplatform SDK.app/Contents/Resources/en.lproj" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="/Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/Uninstall ZebraLink Multiplatform SDK.app/Contents/Resources/Java/.com.zerog.registry.xml" type="file" uninstall="true"/>
+		</component>
+	</components>
+</registry>

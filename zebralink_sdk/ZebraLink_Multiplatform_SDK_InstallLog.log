@@ -1,0 +1,858 @@
+__________________________________________________________________________
+
+Mon Jan 20 17:11:57 EST 2014
+
+Free Memory: 18741 kB
+Total Memory: 25668 kB
+
+java.class.path:
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/Execute.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/IAClasses.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/installscript.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java
+
+ZGUtil.CLASS_PATH:
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/Execute.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/IAClasses.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java/installscript.zip
+    /Users/hyunmokim/Documents/FromSSK/other2/zebra/install.app/Contents/Resources/Java
+
+sun.boot.class.path:
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar
+    /System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar
+    /System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources/LauncherSupport.jar
+
+java.ext.dirs:
+    /Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext
+
+java.version                  == 1.6.0_65 (Java 1)
+mrj.version                   == 1070.1.6.0_65-462
+java.vm.name                  == Java HotSpot(TM) Client VM
+java.vm.vendor                == Apple Inc.
+java.vm.version               == 1.6.0_65-zeroG-workaround
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Sun Microsystems Inc.
+java.vm.specification.version == 1.0
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Sun Microsystems Inc.
+java.specification.version    == 1.6
+java.vendor                   == Apple Inc.
+java.vendor.url               == http://www.apple.com/
+java.class.version            == 50.0
+java.compiler                 == null
+java.home                     == /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+java.io.tmpdir                == /var/folders/13/5xzkn5bs7zqbx2c_lhxyyw3m0000gn/T/
+os.name                       == Mac OS X
+os.arch                       == i386
+os.version                    == 10.9
+path.separator                == :
+file.separator                == /
+file.encoding                 == MacRoman
+user.name                     == hyunmokim
+user.home                     == /Users/hyunmokim
+user.dir                      == /Users/hyunmokim/Documents/FromSSK/other2/zebra
+user.language                 == en
+user.region                   == null
+__________________________________________________________________________
+
+Install Begin: Mon Jan 20 17:11:25 EST 2014
+Install End: Mon Jan 20 17:11:56 EST 2014
+
+Installed by InstallAnywhere 9.5 Enterprise Build 3571
+
+
+User Interactions
+-----------------
+
+
+#Choose Install Folder
+#---------------------
+USER_INSTALL_DIR=/Users/hyunmokim/Documents/zebralink_sdk
+
+Summary
+-------
+
+Installation: Successful.
+
+254 Successes
+0 Warnings
+0 NonFatalErrors
+0 FatalErrors
+
+Action Notes:
+
+None
+
+Install Log Detail:
+
+Install Action:           Find Component in Registry: Find Any Other Instances of ZebraLink Multiplatform SDK
+                          Status: SUCCESSFUL
+
+Check Disk Space:         /Users/hyunmokim/Documents/zebralink_sdk
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 8,145,511; Free Disk Space: -1
+
+Install Directory:        /Users/hyunmokim/Documents/zebralink_sdk/
+                          Status: SUCCESSFUL
+
+Install Directory:        /Users/hyunmokim/Documents/zebralink_sdk/Uninstall_ZebraLink Multiplatform SDK/
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      ZebraLink Multiplatform SDK (Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Install Uninstaller:      ZebraLink Multiplatform SDK (Install All Uninstaller Components)
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/.zuninstall
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/Zebra SDK EULA.pdf
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/sdk_welcome.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/readme_iOS.html
+                          Status: SUCCESSFUL
+
+Install Directory:        /Users/hyunmokim/Documents/zebralink_sdk/iOS/
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectionSetupController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectionSetupController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectivityDemoController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ConnectivityDemoController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DirectedBroadcastViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DirectedBroadcastViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveredPrintersViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveredPrintersViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryControllerBase.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryControllerBase.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DiscoveryViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DrawingArea.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/DrawingArea.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ImagePrintDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ImagePrintDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ListFormatsViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MagCardDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MagCardDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MulticastViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/MulticastViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/PrintPreviewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/PrintPreviewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/RootViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/RootViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SendFileDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SendFileDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SignatureCaptureDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SignatureCaptureDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SmartCardDemoViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SmartCardDemoViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StatusViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StatusViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredFormatViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredFormatViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredPrinterFormatsViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/StoredPrinterFormatsViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SubnetSearchViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/SubnetSearchViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableFieldEditViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableFieldEditViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariableModifier.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariablesViewController.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/VariablesViewController.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ZSDKDeveloperDemosAppDelegate.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Classes/ZSDKDeveloperDemosAppDelegate.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Formats/test_cpcl.lbl
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Formats/test_zpl.zpl
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/formatFromPhone.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/formatFromPrinter.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/ql.jpg
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Images/rw420.jpg
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/main.m
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/PDFs/PDFDemo2.pdf
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ConnectionSetupView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ConnectivityView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DirectedBroadcastView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DiscoveredPrintersView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/DiscoveryView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ImagePrintView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ListFormatsDemoView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/ListFormatsView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MagCardView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MainWindow.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/MulticastView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/PrintPreview.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/RootViewController.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SendFileView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SignatureView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SmartCardView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StatusView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StoredFormatView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/StoredPrinterFormatsView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/SubnetSearchView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/VariableFieldEditView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/Xibs/VariablesView.xib
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos-Info.plist
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/project.pbxproj
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/swgroup.mode1v3
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos.xcodeproj/swgroup.pbxuser
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/demos/src/xcode_project/developer_demos/ZSDKDeveloperDemos_Prefix.pch
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/annotated.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/bc_s.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/classes.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_discovered_printer-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_discovered_printer_network-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_field_description_data-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_network_discoverer-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_printer_status-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_printer_status_messages-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_s_g_d-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_tcp_printer_connection-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zebra_error_code_interface-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zebra_printer_factory-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/class_zpl_print_mode_interface-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/closed.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/doxygen.css
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/doxygen.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2blank.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2doc.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2folderclosed.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2folderopen.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2lastnode.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2link.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2mlastnode.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2mnode.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2node.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2plastnode.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2pnode.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/ftv2vertline.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_enum.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_eval.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_func.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/functions_prop.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/hierarchy.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/index.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_discovered_printer.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_discovered_printer_network.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_field_description_data.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_network_discoverer.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_printer_status.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_printer_status_messages.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_s_g_d.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_tcp_printer_connection.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zebra_error_code_interface.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zebra_printer_factory.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/interface_zpl_print_mode_interface.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/libToProj.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/main.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/nav_f.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/nav_h.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/open.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_file_util-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_file_util-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_format_util-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_format_util-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_graphics_util-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_graphics_util-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_mag_card_reader-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_mag_card_reader-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_smart_card_reader-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_smart_card_reader-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_tools_util-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_tools_util-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer_connection-p-members.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/protocol_zebra_printer_connection-p.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_61.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_63.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_64.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_66.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_67.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_68.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_69.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6c.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6d.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6e.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_6f.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_72.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_73.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_74.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_77.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/all_7a.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_64.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_66.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_67.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_6d.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_6e.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_73.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_74.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/classes_7a.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/close.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enums_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enums_7a.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enumvalues_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/enumvalues_7a.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_63.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_64.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_67.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_68.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_69.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6c.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6d.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_6f.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_72.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_73.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_74.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/functions_77.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/mag_sel.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/nomatches.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_61.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_64.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_66.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_69.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_6c.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_6e.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/properties_70.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search.css
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search.js
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_l.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_m.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/search/search_r.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tabs.css
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_a.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_b.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_h.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tab_s.png
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/doc/html/tree.html
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Device/libZSDK_API.a
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/DiscoveredPrinter.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/DiscoveredPrinterNetwork.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FieldDescriptionData.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FileUtil.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/FormatUtil.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/GraphicsUtil.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/MagCardReader.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/NetworkDiscoverer.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/PrinterStatus.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/PrinterStatusMessages.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/SGD.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/SmartCardReader.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/TcpPrinterConnection.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ToolsUtil.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraErrorCode.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinter.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinterConnection.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZebraPrinterFactory.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/include/ZplPrintMode.h
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/lib/Simulator/libZSDK_API.a
+                          Status: SUCCESSFUL
+
+Install File:             /Users/hyunmokim/Documents/zebralink_sdk/iOS/v1.0.214/zebra_utilities/release/ZebraLinkª Multiplatform SDK and Smartphone Utility.webloc
+                          Status: SUCCESSFUL
+
+Install Directory:        /Users/hyunmokim/Desktop/
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Directory already existed
+
+Create Alias:             /Users/hyunmokim/Desktop/ZebraLink Multiplatform SDK
+                          Status: SUCCESSFUL
+
+Create Alias:             /Users/hyunmokim/Desktop/Uninstall ZebraLink Multiplatform SDK
+                          Status: SUCCESSFUL
+
+
+Execute Script/Batch file: Open SDK Directory
+                          Status: SUCCESSFUL
+

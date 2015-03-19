@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+	<dict>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>English</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>Uninstall ZebraLink Multiplatform SDK</string>
+		<key>CFBundleExecutable</key>
+		<string>Uninstall ZebraLink Multiplatform SDK</string>
+		<key>CFBundleVersion</key>
+		<string>9.5</string>
+		<key>CFBundleGetInfoString</key>
+		<string>InstallAnywhere 2008 VP1, © 1997-2008 Acresso Software Inc. and/or InstallShield Co. Inc.</string>
+		<key>CFBundleIconFile</key>
+		<string>LaunchAnywhere.icns</string>
+		<key>Java</key>
+		<dict>
+			<key>JVMVersion</key>
+			<string>1.4+</string>
+			<key>ClassPath</key>
+			<array>
+				<string>$JAVAROOT/uninstaller.jar</string>
+				<string>.</string>
+				<string>uninstallerResources.zip</string>
+			</array>
+			<key>MainClass</key>
+			<string>com.zerog.lax.LAX</string>
+			<key>Properties</key>
+			<dict>
+				<key>lax.stdin.redirect</key>
+				<string>console</string>
+				<key>lax.stdout.redirect</key>
+				<string>console</string>
+				<key>lax.stderr.redirect</key>
+				<string>console</string>
+				<key>com.apple.mrj.application.growbox.intrudes</key>
+				<string>true</string>
+				<key>lax.main.method</key>
+				<string>main</string>
+				<key>lax.root.install.dir</key>
+				<string>/Users/hyunmokim/Documents/zebralink_sdk</string>
+				<key>lax.command.line.args</key>
+				<string>$CMD_LINE_ARGUMENTS$ -u</string>
+				<key>lax.nl.java.option.check.source</key>
+				<string>off</string>
+				<key>lax.version</key>
+				<string>9.5</string>
+				<key>lax.main.class</key>
+				<string>com.zerog.ia.installer.Main</string>
+			</dict>
+			<key>VMOptions</key>
+			<array>
+				<string>-Xms16M</string>
+				<string>-Xmx48M</string>
+			</array>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		4B4C623412089D9D00E1C6E4 /* SendFileDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */; };
+		4B4C626E12089DB400E1C6E4 /* SmartCardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C623712089DB400E1C6E4 /* SmartCardDemoViewController.m */; };
+		4B4C626F12089DB400E1C6E4 /* MagCardDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C623A12089DB400E1C6E4 /* MagCardDemoViewController.m */; };
+		4B4C627012089DB400E1C6E4 /* DrawingArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C623D12089DB400E1C6E4 /* DrawingArea.m */; };
+		4B4C627112089DB400E1C6E4 /* SignatureCaptureDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C623F12089DB400E1C6E4 /* SignatureCaptureDemoViewController.m */; };
+		4B4C627212089DB400E1C6E4 /* ConnectionSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624212089DB400E1C6E4 /* ConnectionSetupController.m */; };
+		4B4C627312089DB400E1C6E4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624412089DB400E1C6E4 /* RootViewController.m */; };
+		4B4C627412089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624612089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.m */; };
+		4B4C627512089DB400E1C6E4 /* ImagePrintDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624912089DB400E1C6E4 /* ImagePrintDemoViewController.m */; };
+		4B4C627612089DB400E1C6E4 /* PrintPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624B12089DB400E1C6E4 /* PrintPreviewController.m */; };
+		4B4C627712089DB400E1C6E4 /* ConnectivityDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C624E12089DB400E1C6E4 /* ConnectivityDemoController.m */; };
+		4B4C627812089DB400E1C6E4 /* DiscoveryControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625112089DB400E1C6E4 /* DiscoveryControllerBase.m */; };
+		4B4C627912089DB400E1C6E4 /* DirectedBroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625312089DB400E1C6E4 /* DirectedBroadcastViewController.m */; };
+		4B4C627A12089DB400E1C6E4 /* DiscoveredPrintersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625512089DB400E1C6E4 /* DiscoveredPrintersViewController.m */; };
+		4B4C627B12089DB400E1C6E4 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625712089DB400E1C6E4 /* DiscoveryViewController.m */; };
+		4B4C627C12089DB400E1C6E4 /* MulticastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625912089DB400E1C6E4 /* MulticastViewController.m */; };
+		4B4C627D12089DB400E1C6E4 /* SubnetSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625B12089DB400E1C6E4 /* SubnetSearchViewController.m */; };
+		4B4C627E12089DB400E1C6E4 /* ListFormatsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C625E12089DB400E1C6E4 /* ListFormatsDemoViewController.m */; };
+		4B4C627F12089DB400E1C6E4 /* ListFormatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626012089DB400E1C6E4 /* ListFormatsViewController.m */; };
+		4B4C628012089DB400E1C6E4 /* StatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626312089DB400E1C6E4 /* StatusViewController.m */; };
+		4B4C628112089DB400E1C6E4 /* StoredFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626612089DB400E1C6E4 /* StoredFormatViewController.m */; };
+		4B4C628212089DB400E1C6E4 /* StoredPrinterFormatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626812089DB400E1C6E4 /* StoredPrinterFormatsViewController.m */; };
+		4B4C628312089DB400E1C6E4 /* VariableFieldEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626A12089DB400E1C6E4 /* VariableFieldEditViewController.m */; };
+		4B4C628412089DB400E1C6E4 /* VariablesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C626C12089DB400E1C6E4 /* VariablesViewController.m */; };
+		4B4C629212089E2300E1C6E4 /* formatFromPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C628E12089E2300E1C6E4 /* formatFromPhone.png */; };
+		4B4C629312089E2300E1C6E4 /* formatFromPrinter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C628F12089E2300E1C6E4 /* formatFromPrinter.png */; };
+		4B4C629412089E2300E1C6E4 /* ql.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629012089E2300E1C6E4 /* ql.jpg */; };
+		4B4C629512089E2300E1C6E4 /* rw420.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629112089E2300E1C6E4 /* rw420.jpg */; };
+		4B4C629712089E3E00E1C6E4 /* PDFDemo2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629612089E3E00E1C6E4 /* PDFDemo2.pdf */; };
+		4B4C629A12089E5200E1C6E4 /* test_cpcl.lbl in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629812089E5200E1C6E4 /* test_cpcl.lbl */; };
+		4B4C629B12089E5200E1C6E4 /* test_zpl.zpl in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629912089E5200E1C6E4 /* test_zpl.zpl */; };
+		4B4C62B212089E6400E1C6E4 /* ConnectionSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629C12089E6400E1C6E4 /* ConnectionSetupView.xib */; };
+		4B4C62B312089E6400E1C6E4 /* ConnectivityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629D12089E6400E1C6E4 /* ConnectivityView.xib */; };
+		4B4C62B412089E6400E1C6E4 /* DirectedBroadcastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629E12089E6400E1C6E4 /* DirectedBroadcastView.xib */; };
+		4B4C62B512089E6400E1C6E4 /* DiscoveredPrintersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C629F12089E6400E1C6E4 /* DiscoveredPrintersView.xib */; };
+		4B4C62B612089E6400E1C6E4 /* DiscoveryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A012089E6400E1C6E4 /* DiscoveryView.xib */; };
+		4B4C62B712089E6400E1C6E4 /* ImagePrintView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A112089E6400E1C6E4 /* ImagePrintView.xib */; };
+		4B4C62B812089E6400E1C6E4 /* ListFormatsDemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A212089E6400E1C6E4 /* ListFormatsDemoView.xib */; };
+		4B4C62B912089E6400E1C6E4 /* ListFormatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A312089E6400E1C6E4 /* ListFormatsView.xib */; };
+		4B4C62BA12089E6400E1C6E4 /* MagCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A412089E6400E1C6E4 /* MagCardView.xib */; };
+		4B4C62BB12089E6400E1C6E4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A512089E6400E1C6E4 /* MainWindow.xib */; };
+		4B4C62BC12089E6400E1C6E4 /* MulticastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A612089E6400E1C6E4 /* MulticastView.xib */; };
+		4B4C62BD12089E6400E1C6E4 /* PrintPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A712089E6400E1C6E4 /* PrintPreview.xib */; };
+		4B4C62BE12089E6400E1C6E4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A812089E6400E1C6E4 /* RootViewController.xib */; };
+		4B4C62BF12089E6400E1C6E4 /* SendFileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62A912089E6400E1C6E4 /* SendFileView.xib */; };
+		4B4C62C012089E6400E1C6E4 /* SignatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AA12089E6400E1C6E4 /* SignatureView.xib */; };
+		4B4C62C112089E6400E1C6E4 /* SmartCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AB12089E6400E1C6E4 /* SmartCardView.xib */; };
+		4B4C62C212089E6400E1C6E4 /* StatusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AC12089E6400E1C6E4 /* StatusView.xib */; };
+		4B4C62C312089E6400E1C6E4 /* StoredFormatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AD12089E6400E1C6E4 /* StoredFormatView.xib */; };
+		4B4C62C412089E6400E1C6E4 /* StoredPrinterFormatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AE12089E6400E1C6E4 /* StoredPrinterFormatsView.xib */; };
+		4B4C62C512089E6400E1C6E4 /* SubnetSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62AF12089E6400E1C6E4 /* SubnetSearchView.xib */; };
+		4B4C62C612089E6400E1C6E4 /* VariableFieldEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62B012089E6400E1C6E4 /* VariableFieldEditView.xib */; };
+		4B4C62C712089E6400E1C6E4 /* VariablesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C62B112089E6400E1C6E4 /* VariablesView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* ZSDKDeveloperDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSDKDeveloperDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* ZSDKDeveloperDemos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDKDeveloperDemos_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4C623212089D9D00E1C6E4 /* SendFileDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendFileDemoViewController.h; sourceTree = "<group>"; };
+		4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendFileDemoViewController.m; sourceTree = "<group>"; };
+		4B4C623612089DB400E1C6E4 /* SmartCardDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardDemoViewController.h; sourceTree = "<group>"; };
+		4B4C623712089DB400E1C6E4 /* SmartCardDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartCardDemoViewController.m; sourceTree = "<group>"; };
+		4B4C623912089DB400E1C6E4 /* MagCardDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagCardDemoViewController.h; sourceTree = "<group>"; };
+		4B4C623A12089DB400E1C6E4 /* MagCardDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagCardDemoViewController.m; sourceTree = "<group>"; };
+		4B4C623C12089DB400E1C6E4 /* DrawingArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingArea.h; sourceTree = "<group>"; };
+		4B4C623D12089DB400E1C6E4 /* DrawingArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingArea.m; sourceTree = "<group>"; };
+		4B4C623E12089DB400E1C6E4 /* SignatureCaptureDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureCaptureDemoViewController.h; sourceTree = "<group>"; };
+		4B4C623F12089DB400E1C6E4 /* SignatureCaptureDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureCaptureDemoViewController.m; sourceTree = "<group>"; };
+		4B4C624112089DB400E1C6E4 /* ConnectionSetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionSetupController.h; sourceTree = "<group>"; };
+		4B4C624212089DB400E1C6E4 /* ConnectionSetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionSetupController.m; sourceTree = "<group>"; };
+		4B4C624312089DB400E1C6E4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4B4C624412089DB400E1C6E4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4B4C624512089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDKDeveloperDemosAppDelegate.h; sourceTree = "<group>"; };
+		4B4C624612089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDKDeveloperDemosAppDelegate.m; sourceTree = "<group>"; };
+		4B4C624812089DB400E1C6E4 /* ImagePrintDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePrintDemoViewController.h; sourceTree = "<group>"; };
+		4B4C624912089DB400E1C6E4 /* ImagePrintDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePrintDemoViewController.m; sourceTree = "<group>"; };
+		4B4C624A12089DB400E1C6E4 /* PrintPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintPreviewController.h; sourceTree = "<group>"; };
+		4B4C624B12089DB400E1C6E4 /* PrintPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintPreviewController.m; sourceTree = "<group>"; };
+		4B4C624D12089DB400E1C6E4 /* ConnectivityDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectivityDemoController.h; sourceTree = "<group>"; };
+		4B4C624E12089DB400E1C6E4 /* ConnectivityDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectivityDemoController.m; sourceTree = "<group>"; };
+		4B4C625012089DB400E1C6E4 /* DiscoveryControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryControllerBase.h; sourceTree = "<group>"; };
+		4B4C625112089DB400E1C6E4 /* DiscoveryControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryControllerBase.m; sourceTree = "<group>"; };
+		4B4C625212089DB400E1C6E4 /* DirectedBroadcastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectedBroadcastViewController.h; sourceTree = "<group>"; };
+		4B4C625312089DB400E1C6E4 /* DirectedBroadcastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectedBroadcastViewController.m; sourceTree = "<group>"; };
+		4B4C625412089DB400E1C6E4 /* DiscoveredPrintersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrintersViewController.h; sourceTree = "<group>"; };
+		4B4C625512089DB400E1C6E4 /* DiscoveredPrintersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveredPrintersViewController.m; sourceTree = "<group>"; };
+		4B4C625612089DB400E1C6E4 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		4B4C625712089DB400E1C6E4 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		4B4C625812089DB400E1C6E4 /* MulticastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticastViewController.h; sourceTree = "<group>"; };
+		4B4C625912089DB400E1C6E4 /* MulticastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticastViewController.m; sourceTree = "<group>"; };
+		4B4C625A12089DB400E1C6E4 /* SubnetSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubnetSearchViewController.h; sourceTree = "<group>"; };
+		4B4C625B12089DB400E1C6E4 /* SubnetSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubnetSearchViewController.m; sourceTree = "<group>"; };
+		4B4C625D12089DB400E1C6E4 /* ListFormatsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFormatsDemoViewController.h; sourceTree = "<group>"; };
+		4B4C625E12089DB400E1C6E4 /* ListFormatsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListFormatsDemoViewController.m; sourceTree = "<group>"; };
+		4B4C625F12089DB400E1C6E4 /* ListFormatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListFormatsViewController.h; sourceTree = "<group>"; };
+		4B4C626012089DB400E1C6E4 /* ListFormatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListFormatsViewController.m; sourceTree = "<group>"; };
+		4B4C626212089DB400E1C6E4 /* StatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusViewController.h; sourceTree = "<group>"; };
+		4B4C626312089DB400E1C6E4 /* StatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusViewController.m; sourceTree = "<group>"; };
+		4B4C626512089DB400E1C6E4 /* StoredFormatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredFormatViewController.h; sourceTree = "<group>"; };
+		4B4C626612089DB400E1C6E4 /* StoredFormatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoredFormatViewController.m; sourceTree = "<group>"; };
+		4B4C626712089DB400E1C6E4 /* StoredPrinterFormatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoredPrinterFormatsViewController.h; sourceTree = "<group>"; };
+		4B4C626812089DB400E1C6E4 /* StoredPrinterFormatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoredPrinterFormatsViewController.m; sourceTree = "<group>"; };
+		4B4C626912089DB400E1C6E4 /* VariableFieldEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariableFieldEditViewController.h; sourceTree = "<group>"; };
+		4B4C626A12089DB400E1C6E4 /* VariableFieldEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariableFieldEditViewController.m; sourceTree = "<group>"; };
+		4B4C626B12089DB400E1C6E4 /* VariablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariablesViewController.h; sourceTree = "<group>"; };
+		4B4C626C12089DB400E1C6E4 /* VariablesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariablesViewController.m; sourceTree = "<group>"; };
+		4B4C626D12089DB400E1C6E4 /* VariableModifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariableModifier.h; sourceTree = "<group>"; };
+		4B4C628E12089E2300E1C6E4 /* formatFromPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = formatFromPhone.png; path = Images/formatFromPhone.png; sourceTree = "<group>"; };
+		4B4C628F12089E2300E1C6E4 /* formatFromPrinter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = formatFromPrinter.png; path = Images/formatFromPrinter.png; sourceTree = "<group>"; };
+		4B4C629012089E2300E1C6E4 /* ql.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ql.jpg; path = Images/ql.jpg; sourceTree = "<group>"; };
+		4B4C629112089E2300E1C6E4 /* rw420.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rw420.jpg; path = Images/rw420.jpg; sourceTree = "<group>"; };
+		4B4C629612089E3E00E1C6E4 /* PDFDemo2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = PDFDemo2.pdf; path = PDFs/PDFDemo2.pdf; sourceTree = "<group>"; };
+		4B4C629812089E5200E1C6E4 /* test_cpcl.lbl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_cpcl.lbl; path = Formats/test_cpcl.lbl; sourceTree = "<group>"; };
+		4B4C629912089E5200E1C6E4 /* test_zpl.zpl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_zpl.zpl; path = Formats/test_zpl.zpl; sourceTree = "<group>"; };
+		4B4C629C12089E6400E1C6E4 /* ConnectionSetupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConnectionSetupView.xib; path = Xibs/ConnectionSetupView.xib; sourceTree = "<group>"; };
+		4B4C629D12089E6400E1C6E4 /* ConnectivityView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConnectivityView.xib; path = Xibs/ConnectivityView.xib; sourceTree = "<group>"; };
+		4B4C629E12089E6400E1C6E4 /* DirectedBroadcastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DirectedBroadcastView.xib; path = Xibs/DirectedBroadcastView.xib; sourceTree = "<group>"; };
+		4B4C629F12089E6400E1C6E4 /* DiscoveredPrintersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DiscoveredPrintersView.xib; path = Xibs/DiscoveredPrintersView.xib; sourceTree = "<group>"; };
+		4B4C62A012089E6400E1C6E4 /* DiscoveryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DiscoveryView.xib; path = Xibs/DiscoveryView.xib; sourceTree = "<group>"; };
+		4B4C62A112089E6400E1C6E4 /* ImagePrintView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImagePrintView.xib; path = Xibs/ImagePrintView.xib; sourceTree = "<group>"; };
+		4B4C62A212089E6400E1C6E4 /* ListFormatsDemoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListFormatsDemoView.xib; path = Xibs/ListFormatsDemoView.xib; sourceTree = "<group>"; };
+		4B4C62A312089E6400E1C6E4 /* ListFormatsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ListFormatsView.xib; path = Xibs/ListFormatsView.xib; sourceTree = "<group>"; };
+		4B4C62A412089E6400E1C6E4 /* MagCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MagCardView.xib; path = Xibs/MagCardView.xib; sourceTree = "<group>"; };
+		4B4C62A512089E6400E1C6E4 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Xibs/MainWindow.xib; sourceTree = "<group>"; };
+		4B4C62A612089E6400E1C6E4 /* MulticastView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MulticastView.xib; path = Xibs/MulticastView.xib; sourceTree = "<group>"; };
+		4B4C62A712089E6400E1C6E4 /* PrintPreview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PrintPreview.xib; path = Xibs/PrintPreview.xib; sourceTree = "<group>"; };
+		4B4C62A812089E6400E1C6E4 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Xibs/RootViewController.xib; sourceTree = "<group>"; };
+		4B4C62A912089E6400E1C6E4 /* SendFileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SendFileView.xib; path = Xibs/SendFileView.xib; sourceTree = "<group>"; };
+		4B4C62AA12089E6400E1C6E4 /* SignatureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SignatureView.xib; path = Xibs/SignatureView.xib; sourceTree = "<group>"; };
+		4B4C62AB12089E6400E1C6E4 /* SmartCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SmartCardView.xib; path = Xibs/SmartCardView.xib; sourceTree = "<group>"; };
+		4B4C62AC12089E6400E1C6E4 /* StatusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StatusView.xib; path = Xibs/StatusView.xib; sourceTree = "<group>"; };
+		4B4C62AD12089E6400E1C6E4 /* StoredFormatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoredFormatView.xib; path = Xibs/StoredFormatView.xib; sourceTree = "<group>"; };
+		4B4C62AE12089E6400E1C6E4 /* StoredPrinterFormatsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoredPrinterFormatsView.xib; path = Xibs/StoredPrinterFormatsView.xib; sourceTree = "<group>"; };
+		4B4C62AF12089E6400E1C6E4 /* SubnetSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SubnetSearchView.xib; path = Xibs/SubnetSearchView.xib; sourceTree = "<group>"; };
+		4B4C62B012089E6400E1C6E4 /* VariableFieldEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VariableFieldEditView.xib; path = Xibs/VariableFieldEditView.xib; sourceTree = "<group>"; };
+		4B4C62B112089E6400E1C6E4 /* VariablesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VariablesView.xib; path = Xibs/VariablesView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ZSDKDeveloperDemos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZSDKDeveloperDemos-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C626412089DB400E1C6E4 /* Stored Format */,
+				4B4C626112089DB400E1C6E4 /* StatusDemo */,
+				4B4C625C12089DB400E1C6E4 /* ListFormatsDemo */,
+				4B4C624F12089DB400E1C6E4 /* DiscoveryDemo */,
+				4B4C624C12089DB400E1C6E4 /* ConnectivityDemo */,
+				4B4C624712089DB400E1C6E4 /* ImagePrint */,
+				4B4C624012089DB400E1C6E4 /* General */,
+				4B4C623B12089DB400E1C6E4 /* Signature Capture Demo */,
+				4B4C623812089DB400E1C6E4 /* MagCardDemo */,
+				4B4C623512089DB400E1C6E4 /* SmartCardDemo */,
+				4B4C623112089D9D00E1C6E4 /* SendFileDemo */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ZSDKDeveloperDemos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* ZSDKDeveloperDemos_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C628D12089DF100E1C6E4 /* Images */,
+				4B4C628C12089DEC00E1C6E4 /* Xibs */,
+				4B4C628B12089DE700E1C6E4 /* PDFs */,
+				4B4C628A12089DE000E1C6E4 /* Formats */,
+				8D1107310486CEB800E47090 /* ZSDKDeveloperDemos-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4C623112089D9D00E1C6E4 /* SendFileDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C623212089D9D00E1C6E4 /* SendFileDemoViewController.h */,
+				4B4C623312089D9D00E1C6E4 /* SendFileDemoViewController.m */,
+			);
+			name = SendFileDemo;
+			sourceTree = "<group>";
+		};
+		4B4C623512089DB400E1C6E4 /* SmartCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C623612089DB400E1C6E4 /* SmartCardDemoViewController.h */,
+				4B4C623712089DB400E1C6E4 /* SmartCardDemoViewController.m */,
+			);
+			name = SmartCardDemo;
+			sourceTree = "<group>";
+		};
+		4B4C623812089DB400E1C6E4 /* MagCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C623912089DB400E1C6E4 /* MagCardDemoViewController.h */,
+				4B4C623A12089DB400E1C6E4 /* MagCardDemoViewController.m */,
+			);
+			name = MagCardDemo;
+			sourceTree = "<group>";
+		};
+		4B4C623B12089DB400E1C6E4 /* Signature Capture Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C623C12089DB400E1C6E4 /* DrawingArea.h */,
+				4B4C623D12089DB400E1C6E4 /* DrawingArea.m */,
+				4B4C623E12089DB400E1C6E4 /* SignatureCaptureDemoViewController.h */,
+				4B4C623F12089DB400E1C6E4 /* SignatureCaptureDemoViewController.m */,
+			);
+			name = "Signature Capture Demo";
+			sourceTree = "<group>";
+		};
+		4B4C624012089DB400E1C6E4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C624112089DB400E1C6E4 /* ConnectionSetupController.h */,
+				4B4C624212089DB400E1C6E4 /* ConnectionSetupController.m */,
+				4B4C624312089DB400E1C6E4 /* RootViewController.h */,
+				4B4C624412089DB400E1C6E4 /* RootViewController.m */,
+				4B4C624512089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.h */,
+				4B4C624612089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		4B4C624712089DB400E1C6E4 /* ImagePrint */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C624812089DB400E1C6E4 /* ImagePrintDemoViewController.h */,
+				4B4C624912089DB400E1C6E4 /* ImagePrintDemoViewController.m */,
+				4B4C624A12089DB400E1C6E4 /* PrintPreviewController.h */,
+				4B4C624B12089DB400E1C6E4 /* PrintPreviewController.m */,
+			);
+			name = ImagePrint;
+			sourceTree = "<group>";
+		};
+		4B4C624C12089DB400E1C6E4 /* ConnectivityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C624D12089DB400E1C6E4 /* ConnectivityDemoController.h */,
+				4B4C624E12089DB400E1C6E4 /* ConnectivityDemoController.m */,
+			);
+			name = ConnectivityDemo;
+			sourceTree = "<group>";
+		};
+		4B4C624F12089DB400E1C6E4 /* DiscoveryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C625012089DB400E1C6E4 /* DiscoveryControllerBase.h */,
+				4B4C625112089DB400E1C6E4 /* DiscoveryControllerBase.m */,
+				4B4C625212089DB400E1C6E4 /* DirectedBroadcastViewController.h */,
+				4B4C625312089DB400E1C6E4 /* DirectedBroadcastViewController.m */,
+				4B4C625412089DB400E1C6E4 /* DiscoveredPrintersViewController.h */,
+				4B4C625512089DB400E1C6E4 /* DiscoveredPrintersViewController.m */,
+				4B4C625612089DB400E1C6E4 /* DiscoveryViewController.h */,
+				4B4C625712089DB400E1C6E4 /* DiscoveryViewController.m */,
+				4B4C625812089DB400E1C6E4 /* MulticastViewController.h */,
+				4B4C625912089DB400E1C6E4 /* MulticastViewController.m */,
+				4B4C625A12089DB400E1C6E4 /* SubnetSearchViewController.h */,
+				4B4C625B12089DB400E1C6E4 /* SubnetSearchViewController.m */,
+			);
+			name = DiscoveryDemo;
+			sourceTree = "<group>";
+		};
+		4B4C625C12089DB400E1C6E4 /* ListFormatsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C625D12089DB400E1C6E4 /* ListFormatsDemoViewController.h */,
+				4B4C625E12089DB400E1C6E4 /* ListFormatsDemoViewController.m */,
+				4B4C625F12089DB400E1C6E4 /* ListFormatsViewController.h */,
+				4B4C626012089DB400E1C6E4 /* ListFormatsViewController.m */,
+			);
+			name = ListFormatsDemo;
+			sourceTree = "<group>";
+		};
+		4B4C626112089DB400E1C6E4 /* StatusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C626212089DB400E1C6E4 /* StatusViewController.h */,
+				4B4C626312089DB400E1C6E4 /* StatusViewController.m */,
+			);
+			name = StatusDemo;
+			sourceTree = "<group>";
+		};
+		4B4C626412089DB400E1C6E4 /* Stored Format */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C626512089DB400E1C6E4 /* StoredFormatViewController.h */,
+				4B4C626612089DB400E1C6E4 /* StoredFormatViewController.m */,
+				4B4C626712089DB400E1C6E4 /* StoredPrinterFormatsViewController.h */,
+				4B4C626812089DB400E1C6E4 /* StoredPrinterFormatsViewController.m */,
+				4B4C626912089DB400E1C6E4 /* VariableFieldEditViewController.h */,
+				4B4C626A12089DB400E1C6E4 /* VariableFieldEditViewController.m */,
+				4B4C626B12089DB400E1C6E4 /* VariablesViewController.h */,
+				4B4C626C12089DB400E1C6E4 /* VariablesViewController.m */,
+				4B4C626D12089DB400E1C6E4 /* VariableModifier.h */,
+			);
+			name = "Stored Format";
+			sourceTree = "<group>";
+		};
+		4B4C628A12089DE000E1C6E4 /* Formats */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C629812089E5200E1C6E4 /* test_cpcl.lbl */,
+				4B4C629912089E5200E1C6E4 /* test_zpl.zpl */,
+			);
+			name = Formats;
+			sourceTree = "<group>";
+		};
+		4B4C628B12089DE700E1C6E4 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C629612089E3E00E1C6E4 /* PDFDemo2.pdf */,
+			);
+			name = PDFs;
+			sourceTree = "<group>";
+		};
+		4B4C628C12089DEC00E1C6E4 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C629C12089E6400E1C6E4 /* ConnectionSetupView.xib */,
+				4B4C629D12089E6400E1C6E4 /* ConnectivityView.xib */,
+				4B4C629E12089E6400E1C6E4 /* DirectedBroadcastView.xib */,
+				4B4C629F12089E6400E1C6E4 /* DiscoveredPrintersView.xib */,
+				4B4C62A012089E6400E1C6E4 /* DiscoveryView.xib */,
+				4B4C62A112089E6400E1C6E4 /* ImagePrintView.xib */,
+				4B4C62A212089E6400E1C6E4 /* ListFormatsDemoView.xib */,
+				4B4C62A312089E6400E1C6E4 /* ListFormatsView.xib */,
+				4B4C62A412089E6400E1C6E4 /* MagCardView.xib */,
+				4B4C62A512089E6400E1C6E4 /* MainWindow.xib */,
+				4B4C62A612089E6400E1C6E4 /* MulticastView.xib */,
+				4B4C62A712089E6400E1C6E4 /* PrintPreview.xib */,
+				4B4C62A812089E6400E1C6E4 /* RootViewController.xib */,
+				4B4C62A912089E6400E1C6E4 /* SendFileView.xib */,
+				4B4C62AA12089E6400E1C6E4 /* SignatureView.xib */,
+				4B4C62AB12089E6400E1C6E4 /* SmartCardView.xib */,
+				4B4C62AC12089E6400E1C6E4 /* StatusView.xib */,
+				4B4C62AD12089E6400E1C6E4 /* StoredFormatView.xib */,
+				4B4C62AE12089E6400E1C6E4 /* StoredPrinterFormatsView.xib */,
+				4B4C62AF12089E6400E1C6E4 /* SubnetSearchView.xib */,
+				4B4C62B012089E6400E1C6E4 /* VariableFieldEditView.xib */,
+				4B4C62B112089E6400E1C6E4 /* VariablesView.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		4B4C628D12089DF100E1C6E4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4B4C628E12089E2300E1C6E4 /* formatFromPhone.png */,
+				4B4C628F12089E2300E1C6E4 /* formatFromPrinter.png */,
+				4B4C629012089E2300E1C6E4 /* ql.jpg */,
+				4B4C629112089E2300E1C6E4 /* rw420.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ZSDKDeveloperDemos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ZSDKDeveloperDemos" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSDKDeveloperDemos;
+			productName = ZSDKDeveloperDemos;
+			productReference = 1D6058910D05DD3D006BFB54 /* ZSDKDeveloperDemos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZSDKDeveloperDemos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ZSDKDeveloperDemos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C629212089E2300E1C6E4 /* formatFromPhone.png in Resources */,
+				4B4C629312089E2300E1C6E4 /* formatFromPrinter.png in Resources */,
+				4B4C629412089E2300E1C6E4 /* ql.jpg in Resources */,
+				4B4C629512089E2300E1C6E4 /* rw420.jpg in Resources */,
+				4B4C629712089E3E00E1C6E4 /* PDFDemo2.pdf in Resources */,
+				4B4C629A12089E5200E1C6E4 /* test_cpcl.lbl in Resources */,
+				4B4C629B12089E5200E1C6E4 /* test_zpl.zpl in Resources */,
+				4B4C62B212089E6400E1C6E4 /* ConnectionSetupView.xib in Resources */,
+				4B4C62B312089E6400E1C6E4 /* ConnectivityView.xib in Resources */,
+				4B4C62B412089E6400E1C6E4 /* DirectedBroadcastView.xib in Resources */,
+				4B4C62B512089E6400E1C6E4 /* DiscoveredPrintersView.xib in Resources */,
+				4B4C62B612089E6400E1C6E4 /* DiscoveryView.xib in Resources */,
+				4B4C62B712089E6400E1C6E4 /* ImagePrintView.xib in Resources */,
+				4B4C62B812089E6400E1C6E4 /* ListFormatsDemoView.xib in Resources */,
+				4B4C62B912089E6400E1C6E4 /* ListFormatsView.xib in Resources */,
+				4B4C62BA12089E6400E1C6E4 /* MagCardView.xib in Resources */,
+				4B4C62BB12089E6400E1C6E4 /* MainWindow.xib in Resources */,
+				4B4C62BC12089E6400E1C6E4 /* MulticastView.xib in Resources */,
+				4B4C62BD12089E6400E1C6E4 /* PrintPreview.xib in Resources */,
+				4B4C62BE12089E6400E1C6E4 /* RootViewController.xib in Resources */,
+				4B4C62BF12089E6400E1C6E4 /* SendFileView.xib in Resources */,
+				4B4C62C012089E6400E1C6E4 /* SignatureView.xib in Resources */,
+				4B4C62C112089E6400E1C6E4 /* SmartCardView.xib in Resources */,
+				4B4C62C212089E6400E1C6E4 /* StatusView.xib in Resources */,
+				4B4C62C312089E6400E1C6E4 /* StoredFormatView.xib in Resources */,
+				4B4C62C412089E6400E1C6E4 /* StoredPrinterFormatsView.xib in Resources */,
+				4B4C62C512089E6400E1C6E4 /* SubnetSearchView.xib in Resources */,
+				4B4C62C612089E6400E1C6E4 /* VariableFieldEditView.xib in Resources */,
+				4B4C62C712089E6400E1C6E4 /* VariablesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				4B4C623412089D9D00E1C6E4 /* SendFileDemoViewController.m in Sources */,
+				4B4C626E12089DB400E1C6E4 /* SmartCardDemoViewController.m in Sources */,
+				4B4C626F12089DB400E1C6E4 /* MagCardDemoViewController.m in Sources */,
+				4B4C627012089DB400E1C6E4 /* DrawingArea.m in Sources */,
+				4B4C627112089DB400E1C6E4 /* SignatureCaptureDemoViewController.m in Sources */,
+				4B4C627212089DB400E1C6E4 /* ConnectionSetupController.m in Sources */,
+				4B4C627312089DB400E1C6E4 /* RootViewController.m in Sources */,
+				4B4C627412089DB400E1C6E4 /* ZSDKDeveloperDemosAppDelegate.m in Sources */,
+				4B4C627512089DB400E1C6E4 /* ImagePrintDemoViewController.m in Sources */,
+				4B4C627612089DB400E1C6E4 /* PrintPreviewController.m in Sources */,
+				4B4C627712089DB400E1C6E4 /* ConnectivityDemoController.m in Sources */,
+				4B4C627812089DB400E1C6E4 /* DiscoveryControllerBase.m in Sources */,
+				4B4C627912089DB400E1C6E4 /* DirectedBroadcastViewController.m in Sources */,
+				4B4C627A12089DB400E1C6E4 /* DiscoveredPrintersViewController.m in Sources */,
+				4B4C627B12089DB400E1C6E4 /* DiscoveryViewController.m in Sources */,
+				4B4C627C12089DB400E1C6E4 /* MulticastViewController.m in Sources */,
+				4B4C627D12089DB400E1C6E4 /* SubnetSearchViewController.m in Sources */,
+				4B4C627E12089DB400E1C6E4 /* ListFormatsDemoViewController.m in Sources */,
+				4B4C627F12089DB400E1C6E4 /* ListFormatsViewController.m in Sources */,
+				4B4C628012089DB400E1C6E4 /* StatusViewController.m in Sources */,
+				4B4C628112089DB400E1C6E4 /* StoredFormatViewController.m in Sources */,
+				4B4C628212089DB400E1C6E4 /* StoredPrinterFormatsViewController.m in Sources */,
+				4B4C628312089DB400E1C6E4 /* VariableFieldEditViewController.m in Sources */,
+				4B4C628412089DB400E1C6E4 /* VariablesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZSDKDeveloperDemos_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../../lib//**";
+				INFOPLIST_FILE = "ZSDKDeveloperDemos-Info.plist";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "${PROJECT_DIR}/../../../../lib/Device";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "${PROJECT_DIR}/../../../../lib/Simulator";
+				OTHER_LDFLAGS = "-lZSDK_API";
+				PRODUCT_NAME = ZSDKDeveloperDemos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZSDKDeveloperDemos_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../../lib//**";
+				INFOPLIST_FILE = "ZSDKDeveloperDemos-Info.plist";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "${PROJECT_DIR}/../../../../lib/Device";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "${PROJECT_DIR}/../../../../lib/Simulator";
+				OTHER_LDFLAGS = "-lZSDK_API";
+				PRODUCT_NAME = ZSDKDeveloperDemos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ZSDKDeveloperDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZSDKDeveloperDemos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
